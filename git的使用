@@ -1,0 +1,17 @@
+桌面右键打开git bash
+定位到git库的文件夹
+git add . （暂存）
+git commit -m "介绍" （本地仓库）
+git push origin main （推送到远程仓库） 
+git pull origin main （拉取远程仓库最新代码）
+git status （查看状态） 
+git log （查看日志）
+git checkout -- 文件名 （撤销修改）
+git reset --hard HEAD^ （撤销上一次提交）
+git reset --hard commit_id （撤销到指定版本）
+分支功能 （分支其实就和主干一样的操作流程，只是它不影响主干，而且最后可以合并到主干）
+git branch （查看分支）
+git branch 分支名 （创建分支）  
+git checkout 分支名 （切换分支）
+git merge 分支名 （合并分支）
+git branch -d 分支名 （删除分支）
